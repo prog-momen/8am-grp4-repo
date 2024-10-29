@@ -1,0 +1,236 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1; /* Places video behind content */
+}
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1; /* Places video behind content */
+}
+
+video {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+video {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navbar {
+    background-color: #2C3E50; 
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    font-family: Arial, sans-serif;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    height: 45px;
+    gap: 10rem;
+}
+
+.navbar ul li {
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;    
+    font-weight: bold;
+}
+
+.navbar a {
+    color: #7fdbcc;
+    text-decoration: none;
+    padding: 1rem 1rem;
+    display: block;
+}
+
+.navbar ul li:hover > a {
+    background-color: #2980B9; 
+    border-radius: 5px;
+}
+
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 200px;
+    top: 100%;
+    right: 0;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.dropdown a {
+    color: #333;
+    padding: 0.75rem 1rem;
+    white-space: nowrap;
+}
+
+.dropdown a:hover {
+    background-color: #f1f1f1;
+}
+
+
+.navbar ul li:hover .dropdown {
+    display: block;
+}
+
+
+.dropdown-section {
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    color: #2C3E50;
+    border-bottom: 1px solid #ccc;
+}
+
+
+body {
+    direction: rtl;
+    font-family: Arial, sans-serif;
+}
+
+.Developers{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.card {
+    width: 190px;
+    height: 254px;
+    background: #2C3E50;
+    border-radius: 15px;
+    box-shadow: 1px 5px 60px 0px #100a886b;
+   }
+   
+   .card .card-border-top {
+    width: 60%;
+    height: 3%;
+    background: #7fdbcc;
+    margin: auto;
+    border-radius: 0px 0px 15px 15px;
+   }
+   
+   .card span {
+    font-weight: 600;
+    color: #7fdbcc;
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+    font-size: 16px;
+   }
+   
+   .card .job {
+    font-weight: 400;
+    color: rgb(151, 231, 225);
+    display: block;
+    text-align: center;
+    padding-top: 3px;
+    font-size: 12px;
+   }
+   
+   .card .img {
+    width: 70px;
+    height: 80px;
+    background: #7fdbcc;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 25px;
+   }
+
+.Developers:hover > .card:not(:hover) {
+    filter: blur(5px);
+    transform: scale(0.9, 0.9);
+  }
+   .card button { 
+    padding: 8px 25px; 
+    display: block; 
+    margin: auto; 
+    border-radius: 8px;
+    border: none; 
+    margin-top: 15px;
+    background: #7fdbcc; 
+    color: white; 
+    font-weight: 600; 
+}
+    .card button:hover { 
+        background: #458d81; 
+    }
+    .card button a { 
+    color: white;
+    }
+.card1 {
+    width: 100%;
+    height: 300px;
+    border-radius: 4px;
+    background: #7fdbcc;
+    display: flex;
+    gap: 5px;
+    padding: .4em;
+  }
+  
+  .card1 p {
+    height: 100%;
+    flex: 1;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: all .5s;
+    background: #7fdbcc;
+    border: 1px solid #2C3E50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card1 p:hover {
+    flex: 4;
+  }
+  
+  .card1 p span {
+    min-width: 14em;
+    padding: .5em;
+    text-align: center;
+    transform: rotate(-90deg);
+    transition: all .5s;
+    text-transform: uppercase;
+    color: #ff568e;
+    letter-spacing: .1em;
+  }
+  
+  .card1 p:hover span {
+    transform: rotate(0);
+  }
