@@ -57,7 +57,7 @@ video {
     display: flex;
     flex-wrap: wrap;
     height: 45px;
-    gap: 10rem;
+    gap: 4rem;
 }
 
 .navbar ul li {
