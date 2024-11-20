@@ -75,7 +75,7 @@ video {
 }
 
 .navbar ul li:hover > a {
-    background-color:; 
+  /*  background-color:; */
     border-radius: 5px;
 }
 
