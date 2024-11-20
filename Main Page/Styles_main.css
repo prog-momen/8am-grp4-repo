@@ -46,7 +46,7 @@ video {
 }
 
 .navbar {
-    background-color: #2C3E50; 
+    background-color:#546686; 
     display: flex;
     justify-content: center;
     padding: 1rem;
@@ -68,14 +68,14 @@ video {
 }
 
 .navbar a {
-    color: #7fdbcc;
+    color: #c6f1e1;
     text-decoration: none;
     padding: 1rem 1rem;
     display: block;
 }
 
 .navbar ul li:hover > a {
-    background-color: #2980B9; 
+    background-color:; 
     border-radius: 5px;
 }
 
