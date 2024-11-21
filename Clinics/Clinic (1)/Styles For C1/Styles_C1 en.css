@@ -15,6 +15,7 @@
 } 
 
 .navbar ul {
+    flex-direction: row-reverse;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -49,6 +50,7 @@
 .dropdown-section{
     display: flex;
     justify-content: flex-end;
+    flex-direction: row-reverse;
     
 }
 
@@ -72,6 +74,7 @@
     color: #333;
     padding: 1.5rem 1rem;
     white-space: nowrap;
+    flex-direction: row-reverse;
 }
 
 .dropdown a:hover {
@@ -91,59 +94,14 @@
     border-bottom: 1px solid #ccc;
 }
 
-
 body {
-     direction: rtl;
-    font-family: Arial, sans-serif; 
-  
+    direction: ltr;
+   font-family: Arial, sans-serif; 
+ 
 }
 
 
-.card1 {
-    width: 100%;
-    height: 300px;
-    border-radius: 4px;
-    background: #ffffff;
-    display: flex;
-    gap: 5px;
-    padding: .4em;
-    border-radius: 2px;
-  }
-  
-  .card1 p {
-    height: 100%;
-    flex: 1;
-    overflow: hidden;
-    cursor: pointer;
-    border-radius: 7px;
-    transition: all .5s;
-    background: #000000;
-    border: 1px solid #2C3E50;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .card1 p:hover {
-    flex: 4;
-  }
-  
-  .card1 p span {
-    min-width: 14em;
-    padding: .5em;
-    text-align: center;
-    transform: rotate(-90deg);
-    transition: all .5s;
-    text-transform: uppercase;
-    color: #ff568e;
-    letter-spacing: .1em;
-  }
-  
-  .card1 p:hover span {
-    transform: rotate(0);
-  }
-  
-  footer{
+footer{
     background-color: #111;
 }
 .footerContainer{
@@ -183,8 +141,8 @@ body {
 .footerNav ul{
     display: flex;
     justify-content: center;
-    
     list-style-type: none;
+    flex-direction: row-reverse;
     
 
     
