@@ -38,14 +38,12 @@
     font-size: 20px;
    }
    
-   .card .img {
+   .card img {
     width: 150px;
     height: 150px;
-    background: #050707;
     border-radius: 50%;
-    
-    margin: auto;
     margin-top: 5px;
+    padding-left: 20px;
    }
 
 .Developers:hover > .card:not(:hover) {
