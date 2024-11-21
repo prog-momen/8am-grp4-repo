@@ -8,15 +8,16 @@
 .navbar {
     background-color: #0f5192; 
     display: flex;
-    justify-content: flex-end;
     padding: 0.6rem;
     font-family: Arial, sans-serif;
+    
       
 } 
 
 .navbar ul {
     list-style: none;
     display: flex;
+    flex-direction:row;
     flex-wrap: wrap;
     height: 45px;
     gap: 0.5rem;
@@ -29,8 +30,7 @@
 }
 
 .translate{
-        margin-left: 1050px;
-
+    margin-right: 1100px;
 }
 
 .navbar a {
@@ -48,7 +48,7 @@
 
 .dropdown-section{
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     
 }
 
@@ -58,7 +58,7 @@
     background-color: #fff;
     min-width: 200px;
     top: 85%;
-    left: 0.5px;
+    right: 0.5px;
     box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
     border-radius: 10px;
     overflow: hidden;
@@ -68,7 +68,7 @@
 
 .dropdown a {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     color: #333;
     padding: 1.5rem 1rem;
     white-space: nowrap;
@@ -93,9 +93,8 @@
 
 
 body {
-     direction: rtl;
-    font-family: Arial, sans-serif; 
-  
+    direction: rtl;
+    font-family: Arial, sans-serif;
 }
 
 
@@ -142,7 +141,6 @@ body {
   .card1 p:hover span {
     transform: rotate(0);
   }
-  
   footer{
     background-color: #111;
 }
