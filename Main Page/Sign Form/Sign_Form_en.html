@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Sign_Form_en.css">
+    <link rel="stylesheet" href="https://icons8.com/icon/G9NKsKShW9eD/sign-in">
+    <title>VitalCare Health Center</title>
+</head>
+<body>
+    <div class="doctor-signup-container">
+        <h2 class="title">Doctor Registration</h2>
+        <form class="doctor-signup-form"><img src="./icons8-sign-in-30.png" alt="Signin">   
+            <label for="name">Full Name</label>
+            <input type="text" id="name" class="input" placeholder="Enter your full name" required>
+            
+            <label for="email">Email Address</label>
+            <input type="email" id="email" class="input" placeholder="Enter your email address" required>
+            
+            <label for="password">Password</label>
+            <input type="password" id="password" class="input" placeholder="Enter your password" required>
+            
+            <label for="specialization">Medical Specialization</label>
+            <input type="text" id="specialization" class="input" placeholder="e.g., Surgery, Pediatrics" required>
+            
+            <label for="experience">Years of Experience</label>
+            <input type="number" id="experience" class="input" placeholder="Enter the number of years of experience" min="0" required>
+            
+            <label for="certificates">Certificates</label>
+            <textarea id="certificates" class="textarea" placeholder="Enter details of your academic certificates" required></textarea>
+            
+            <label for="license">Upload Practice License</label>
+            <input type="file" id="license" class="input-file" accept=".pdf, .jpg, .png" required>
+            
+            <label for="additional-documents">Upload Additional Documents (Optional)</label>
+            <input type="file" id="additional-documents" class="input-file" accept=".pdf, .jpg, .png">
+            
+            <button type="submit" class="form-btn">Submit Registration Request</button>
+        </form>
+        <p class="note">* Your information will be reviewed by the administrator before your account is activated.</p>
+    </div>
+</body>
+</html>
