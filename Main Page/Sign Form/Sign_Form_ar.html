@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Sign_Form_ar.css ">
+    <title>مركز فيتال كير الصحي</title>
+</head>
+<body>
+    <div class="doctor-signup-container">
+        <h2 class="title">تسجيل الأطباء</h2>
+        <form class="doctor-signup-form">
+            <label for="name">الاسم الكامل</label>
+            <input type="text" id="name" class="input" placeholder="أدخل اسمك الكامل" required>
+            
+            <label for="email">البريد الإلكتروني</label>
+            <input type="email" id="email" class="input" placeholder="أدخل بريدك الإلكتروني" required>
+            
+            <label for="password">كلمة المرور</label>
+            <input type="password" id="password" class="input" placeholder="أدخل كلمة المرور" required>
+            
+            <label for="specialization">التخصص الطبي</label>
+            <input type="text" id="specialization" class="input" placeholder="مثال: جراحة، طب أطفال" required>
+            
+            <label for="experience">سنوات الخبرة</label>
+            <input type="number" id="experience" class="input" placeholder="أدخل عدد سنوات الخبرة" min="0" required>
+            
+            <label for="certificates">الشهادات</label>
+            <textarea id="certificates" class="textarea" placeholder="أدخل تفاصيل الشهادات العلمية" required></textarea>
+            
+            <label for="license">رفع رخصة المزاولة</label>
+            <input type="file" id="license" class="input-file" accept=".pdf, .jpg, .png" required>
+            
+            <label for="additional-documents">رفع مستندات إضافية (اختياري)</label>
+            <input type="file" id="additional-documents" class="input-file" accept=".pdf, .jpg, .png">
+            
+            <button type="submit" class="form-btn">إرسال طلب التسجيل</button>
+        </form>
+        <p class="note">* سيتم مراجعة بياناتك من قبل المسؤول قبل تفعيل حسابك.</p>
+    </div>
+    
+</body>
+</html>
