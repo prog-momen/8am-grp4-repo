@@ -21,6 +21,7 @@
     display: flex;
     padding: 0.6rem;
     font-family: Arial, sans-serif;
+    direction: rtl;
     
       
 } 
@@ -41,7 +42,7 @@
 }
 
 .translate{
-    margin-right: 1000px;
+    margin-right: 1100px;
 }
 .navbar a {
     color: #ffffff;
