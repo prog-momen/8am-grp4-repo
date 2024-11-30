@@ -112,3 +112,60 @@
     color: #2C3E50;
     border-bottom: 1px solid #ccc;
 }
+
+
+
+.card {
+    width: 300px;
+    border-radius: 15px;
+    background-color: #d6c7e6; 
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .card-image {
+    width:auto;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 15px;
+    color: white;
+  }
+  
+  .card-content h2 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .card-content p {
+    margin: 5px 0 15px;
+    font-size: 0.9rem;
+    color: #e9dff3; 
+  }
+  
+  .card-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: #f1d8f2; 
+  }
+  
+.icon-link {
+    font-size: 1.5rem;
+    color: #3a3b74; /* Dark blue for icons */
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .icon-link:hover {
+    color: #755f9f; /* Slightly lighter blue on hover */
+  }
+  .icon-link img{
+    width: 25px;
+    height: 25px;
+  }
