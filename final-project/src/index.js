@@ -1,12 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
-
-
+// import Main from './components/Main page components/Main';
+import Clinic1 from './components/clinics components/Clinic1';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+
+<Clinic1/>
+
 );
 
