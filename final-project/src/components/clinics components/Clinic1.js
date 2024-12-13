@@ -8,7 +8,7 @@ const Clinic1=()=>{
    return(
     <>
      <NavBar />
-     <TopTopic topic1="Welcome"/>
+     <TopTopic topic1="Welcome" clinic1="CClinic1"/>
      </>
    )
 }

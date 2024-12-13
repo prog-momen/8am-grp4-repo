@@ -2,6 +2,7 @@ import React from 'react';
 import '../styles/navbar.css'; 
 import logo from '../assests/Images/Main Page Images/logo.png'
 import { TranslateIcon } from "hugeicons-react";
+import SearchBar from './SearchBar';
 
 
 const NavBar=()=>{
@@ -27,7 +28,9 @@ const NavBar=()=>{
                 </div>
             </li>
             <li><a href="#">الفريق الطبي</a></li>
-            <li><a href="./Index_Delevoper ar.html">فريق المطورين</a></li>
+            <li className='search'>
+            <SearchBar />
+            </li>
             <li className="translate"><a href="./Index_main en.html"> <TranslateIcon/></a></li>
         </ul>
 

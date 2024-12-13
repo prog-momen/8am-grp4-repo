@@ -15,10 +15,8 @@ const Footer=()=>{
           <ul>
            
               <li><a href="./Index_Developers.html" target="_blank">Our Team</a></li>
-              <li><a href="#">Contact Us</a></li>
+
               <li><a href="#">About</a></li>
-              <li><a href="#">News</a></li>
-              <li><a href="#">Home</a></li>
           </ul>
       </div>
       
